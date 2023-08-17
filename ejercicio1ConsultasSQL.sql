@@ -43,3 +43,12 @@
 
 -- 8- Traer todos los discos que contengan en su nombre la sílaba "ho".
 -- select Titulo From DISCOS D where D.Titulo LIKE '%ho%'
+
+-- 9- Crear un STORED PROCEDURE
+-- create procedure nombreProcedimiento as consultaSQL
+-- ej: create procedure listarTodo as SELECT * FROM ARTICULOS
+
+-- Para ejecutar:
+-- exec listarTodo
+
+
